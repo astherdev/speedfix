@@ -1,0 +1,520 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('./Imagenes/close-up-nozzles-diesel-engine-opened-bonnet.jpg');
+    opacity: 7;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+#menu #logo {
+    height: 30px;
+}
+
+.menu-links a {
+    font-size: 12px;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+#book-now {
+    background-color: red;
+    padding: 7px 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+hr{
+    margin-bottom: 100px;
+}
+
+#content-page1 {
+    height: calc(100vh - 80px);
+}
+
+#container{
+    margin-left: 150px;
+}
+
+
+#span1 {
+    font-size: 25px;
+    color: red;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#titulo1{
+    margin-top: -20px;
+    font-size: 80px;
+    color: white;
+    margin-bottom: -30px;
+}
+
+#span2{
+    font-size: 80px;
+    color: red;
+    font-weight: 600;
+}
+
+#parrafo1{
+    font-size: 12px;
+    color: white;
+    text-align: start;
+    margin-right: 970px;
+    margin-bottom: 30px;
+}
+#boton1, #boton2{
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    padding: 7px;
+    border-radius: 25px;
+    width: 130px;
+    margin-bottom: 40px;
+}
+
+#boton1{
+    background-color: red;
+    border: none;
+}
+#boton2{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#parrafo2 {
+    font-size: 12px;
+    text-align: end;
+    margin-left: 830px;
+    margin-right: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*QUIENES SOMOS - ISAAC -----------------------------------------------------------------------------------------------*/
+#containerSomos{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 100%;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 3%;
+}
+#somosContaint{
+    width: 50%;
+}
+#somosContaint h1{
+    font-size: 50px;
+}
+#somosContaint h1 span{
+    color: red;
+}
+#readMore{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Our Services Kevin */
+
+#Servicios {
+    background-color: rgb(27, 27, 27);
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+    height: 640px;
+}
+
+#Servicios h1 {
+    font-size: 2.5em;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+#Servicios #rojito {
+    color: red;
+}
+
+#Servicios p {
+    margin: 10px 0;
+    color: #ccc;
+    font-size: 1em;
+}
+
+main .contenido-cajas {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    flex-wrap: nowrap; 
+}
+
+main #Servicios .contenido-cajas .tarjeta {
+    margin-top: 60px;
+    background-color: transparent;
+    width: 23%;
+    text-align: left;
+    padding: 23px;
+    position: relative;
+}
+
+main #Servicios .contenido-cajas .tarjeta:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10%;
+    height: 80%;
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.service-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 80%;
+    background-color: #ccc;
+    margin-left: 158px;
+}
+
+.service-line.red {
+    height: 30%;
+    background-color: #e60000;
+    margin-top: 15px;
+    margin-left: 158px;
+}
+
+main #Servicios .contenido-cajas .tarjeta #img_1 {
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+}
+
+main #Servicios .contenido-cajas .tarjeta #img_2 {
+    width: 110px;
+    height: 80px;
+    padding: 10px;
+}
+
+main #Servicios .contenido-cajas .tarjeta #img_3 {
+    width: 100px;
+    height: 80px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+main #Servicios .contenido-cajas .tarjeta #img_4 {
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+}
+
+main #Servicios .contenido-cajas .tarjeta h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: white;
+    font-weight: bold;
+}
+
+main #Servicios .contenido-cajas .tarjeta p {
+    font-size: 0.9em;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+/*Lo que dicen nuestros clientes - Isaac ------------------------------------------------------------------------------*/
+#whatSayContainer{
+    margin-top: 125px;
+    margin-bottom: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#headerSay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#principalText h1{
+    font-size: 40px;
+}
+#principalText h1 span{
+    font-size: 40px;
+    color: red;
+}
+#viewMore{
+    background-color: red;
+    border: none;
+    font-weight: 600;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+#contentSay{
+    justify-content: space-between;
+    display: flex;
+}
+.customersComments{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 4px 3px gray;
+}
+.commentHeader p{
+    font-size: 12px;
+}
+#ownersProfile{
+    text-align: left;
+    justify-content: space-between;
+    align-items: left;
+    margin-top: 30px;
+    margin-right: 100px;
+    display: flex;
+    gap: 10px
+}
+.profileCircle{
+    width: 70px;
+    height: 70px;
+    background: gray;
+    opacity: 60%;
+    border: none;
+    border-radius: 50%;
+}
+#profileInfo p{
+    font-size: 10px;
+    opacity: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Get in Touch Kevin -------------------------------------------------------------------------------------------------*/
+
+#contact {
+    background-color: #252525;
+    padding: 50px;
+    text-align: center;
+}
+#contact .blanco{
+    color: white;
+}
+
+
+#contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #2d2d2d;
+    padding: 70px;
+    border-radius: 90px 0px 90px 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#contact h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#contact .rojito {
+    color: red;
+}
+
+#contact p {
+    color: #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+label {
+    text-align: left;
+    color: white;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border:2px solid white ;
+    border-radius: 5px;
+    background-color: #2d2d2d;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+}
+
+.btn {
+    background-color: red;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 35%;
+    margin-right: 50px;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.social-icons a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1);
+}
+
+
+/*footer yo--------------------------------------------------*/
+#footer {
+    padding: 40px 20px;
+}
+
+#imagen_logo{
+    width: 270px;
+    margin-left: 190px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer-links h3 {
+    font-weight: 600;
+    color: red;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    font-size: 13px;
+    line-height: 3.5;
+}
+
+.footer-bottom {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    font-size: 15px;
+}
